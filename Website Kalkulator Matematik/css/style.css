@@ -1,0 +1,87 @@
+
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      .header {
+        background-color: pink;
+        height: 100px;
+        padding: 5px;
+        text-align: center;
+      }
+
+      .katik {
+        background-color: #fff;
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .Border {
+        background-color: #fff;
+        padding: 30px 20px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 20px auto;
+        width: 80%;
+      }
+      
+      .bujur-sangkar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+      }
+      
+      .cell {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background-color: pink;
+      }
+      
+      .input-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }      
+      
+      .buttons {
+        display: flex;
+        justify-content: center;
+      }
+
+      button {
+        background-color: pink;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 10px;
+      }
+
+      input[type="number"],
+      input[type="text"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        margin-top: 5px;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #333;
+      }
+
+      p {
+        color: #666;
+      }
+   
